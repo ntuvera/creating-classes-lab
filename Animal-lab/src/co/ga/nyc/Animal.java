@@ -27,7 +27,7 @@ public class Animal {
         return isEndangered;
     }
 
-    public boolean setEndangered(boolean endangered) {
+    public void setEndangered(boolean endangered) {
         isEndangered = endangered;
     }
 

@@ -46,8 +46,8 @@ public class AnimalTest {
 //    }
     @Test
     public void testAnimalHasGetTopSpeed(){
-        assertEquals(10, animal.getTopSpeed(10));
-        assertEquals(4, animal2.getTopSpeed(4));
+        assertEquals(15, animal.getTopSpeed());
+        assertEquals(5, animal2.getTopSpeed());
 
     }
 //    @Test
@@ -87,10 +87,17 @@ public class AnimalTest {
 
     }
     @Test
-    public void animalHasConstructor(){
+    public void testAnimalHasConstructor(){
         assertEquals("Chester",animal.getName());
         assertEquals(15, animal.getTopSpeed(), 15);
         assertEquals(4, animal.isEndangered());
         assertEquals(4,animal.getNumLegs());
+    }
+    // I tried to separate the getters and setters test, but here is an example where they are tied together,
+    // so an integration test?
+    @Test
+    public void testGetterAndSetterName(){
+       animal.setName("Bob");
+       assertEquals("Bob", animal.getName());
     }
 }
