@@ -62,12 +62,11 @@ public class AnimalTest {
         assertEquals(false, animal2.isEndangered());
 
     }
-    @Test
-    public void testAnimalHasSetEndangered(){
-        assertEquals(false, animal.setEndangered(false));
-        assertEquals(true, animal2.setEndangered(true));
-
-    }
+//    @Test
+//    public void testAnimalHasSetEndangered(){
+//        assertEquals(false, animal.setEndangered(false));
+//        assertEquals(true, animal2.setEndangered(true));
+//    }
     @Test
     public void testAnimalHasGetNumLegs(){
         assertEquals(4, animal.getNumLegs());
@@ -87,8 +86,11 @@ public class AnimalTest {
        assertEquals("Method Sys Print: Chester can travel at a top speed of 15mph.", outContent.toString().trim());
 
     }
-//    @Test
-//    public void animalHasConstructor(){
-//
-//    }
+    @Test
+    public void animalHasConstructor(){
+        assertEquals("Chester",animal.getName());
+        assertEquals(15, animal.getTopSpeed(), 15);
+        assertEquals(4, animal.isEndangered());
+        assertEquals(4,animal.getNumLegs());
+    }
 }
