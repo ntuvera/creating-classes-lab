@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="555ebaac-2738-4de2-9788-aba851784b36" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Animal-lab/Test/AnimalTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Animal-lab/Test/AnimalTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test/AnimalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/AnimalTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/co/ga/nyc/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/ga/nyc/Animal.java" afterDir="false" />
     </list>
@@ -53,7 +52,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AnimalTest.testAnimalHasGetTopSpeed">
+  <component name="RunManager" selected="JUnit.AnimalTest.testStringOut">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="co.ga.nyc.Main" />
+      <module name="Animal-lab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.ga.nyc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AnimalTest.animalHasConstructor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Animal-lab" />
       <extension name="coverage">
@@ -81,22 +93,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Test.AnimalTest" />
       <option name="METHOD_NAME" value="testAnimalHasGetTopSpeed" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AnimalTest.testAnimalHasSetNumLegs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Animal-lab" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Test.AnimalTest" />
-      <option name="METHOD_NAME" value="testAnimalHasSetNumLegs" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -136,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AnimalTest.testStringOut" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.AnimalTest.testAnimalHasGetTopSpeed" />
         <item itemvalue="JUnit.AnimalTest.testGetterAndSetterName" />
         <item itemvalue="JUnit.AnimalTest.animalHasConstructor" />
-        <item itemvalue="JUnit.AnimalTest.testAnimalHasSetNumLegs" />
-        <item itemvalue="JUnit.AnimalTest.testStringOut" />
       </list>
     </recent_temporary>
   </component>
@@ -157,6 +153,7 @@
       <workItem from="1570037454905" duration="398000" />
       <workItem from="1570038133007" duration="2236000" />
       <workItem from="1570059515975" duration="4256000" />
+      <workItem from="1570109098429" duration="727000" />
     </task>
     <servers />
   </component>

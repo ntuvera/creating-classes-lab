@@ -39,8 +39,10 @@ public class Animal {
         this.name = name;
     }
 
-    public void stateCharacteristics() {
+    @Override
+    public String toString() {
         System.out.println("Method Sys Print: " + this.name + " can travel at a top speed of " + this.topSpeed + "mph.");
+        return "Method Sys Print: " + this.name + " can travel at a top speed of " + this.topSpeed + "mph.";
     }
 
     public Animal(int numLegs, int topSpeed, boolean isEndangered, String name) {

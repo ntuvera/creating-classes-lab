@@ -81,9 +81,9 @@ public class AnimalTest {
 //    }
     @Test
     public void testStringOut(){
-        animal.stateCharacteristics();
-
-       assertEquals("Method Sys Print: Chester can travel at a top speed of 15mph.", outContent.toString().trim());
+        animal.toString();
+        assertEquals("Method Sys Print: Chester can travel at a top speed of 15mph.", outContent.toString().trim());
+        assertEquals("Method Sys Print: Chester can travel at a top speed of 15mph.", animal.toString());
 
     }
     @Test
