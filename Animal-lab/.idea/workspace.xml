@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="555ebaac-2738-4de2-9788-aba851784b36" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/AnimalTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Animal-lab.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Animal-lab.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Animal-lab/co/ga/nyc/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Animal-lab/co/ga/nyc/Animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Animal-lab/co/ga/nyc/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Animal-lab/co/ga/nyc/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/ga/nyc/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/ga/nyc/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/ga/nyc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/ga/nyc/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,11 +28,22 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1RepWrtDBzOV7qrrMObT3BrkAXy" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -39,7 +57,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.AnimalTest.testStringOut">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="co.ga.nyc.Main" />
       <module name="Animal-lab" />
@@ -50,9 +68,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AnimalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Animal-lab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Test.AnimalTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnimalTest.animalHasAName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Animal-lab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Test.AnimalTest" />
+      <option name="METHOD_NAME" value="animalHasAName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnimalTest.testStringOut" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Animal-lab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Test.AnimalTest" />
+      <option name="METHOD_NAME" value="testStringOut" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AnimalTest.testStringOut" />
+        <item itemvalue="JUnit.AnimalTest" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.AnimalTest.animalHasAName" />
       </list>
     </recent_temporary>
   </component>
@@ -67,7 +135,8 @@
       <option name="presentableId" value="Default" />
       <updated>1570037450542</updated>
       <workItem from="1570037454905" duration="398000" />
-      <workItem from="1570038133007" duration="301000" />
+      <workItem from="1570038133007" duration="2236000" />
+      <workItem from="1570059515975" duration="1284000" />
     </task>
     <servers />
   </component>
@@ -79,7 +148,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

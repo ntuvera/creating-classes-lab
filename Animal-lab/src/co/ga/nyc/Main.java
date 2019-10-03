@@ -35,6 +35,8 @@ public class Main {
         System.out.println("Using getters: " + animal.getName() + " can travel at a top speed of " + animal.getTopSpeed() + "mph.");
         System.out.println("Using variables: " + name + " can travel at a top speed of " + topSpeed + "mph.");
 
+        animal.stateCharacteristics();
+
 
     }
 }
