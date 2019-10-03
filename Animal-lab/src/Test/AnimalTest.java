@@ -38,16 +38,34 @@ public class AnimalTest {
         assertEquals("Penny", animal2.getName());
 
     }
+//    @Test
+//    public void testAnimalHasSetName(){
+//        assertEquals("Chester2", animal.setName("Chester2"));
+//        assertEquals("Penn2", animal2.setName("Penn2"));
+//
+//    }
     @Test
     public void testAnimalHasGetTopSpeed(){
-        assertEquals(15, animal.getTopSpeed());
-        assertEquals(5, animal2.getTopSpeed());
+        assertEquals(10, animal.getTopSpeed(10));
+        assertEquals(4, animal2.getTopSpeed(4));
 
     }
+//    @Test
+//    public void testAnimalHasSetTopSpeed(){
+//        assertEquals(15, animal.getTopSpeed());
+//        assertEquals(5, animal2.getTopSpeed());
+//
+//    }
     @Test
     public void testAnimalHasIsEndangered(){
         assertEquals(true, animal.isEndangered());
         assertEquals(false, animal2.isEndangered());
+
+    }
+    @Test
+    public void testAnimalHasSetEndangered(){
+        assertEquals(false, animal.setEndangered(false));
+        assertEquals(true, animal2.setEndangered(true));
 
     }
     @Test
@@ -56,7 +74,12 @@ public class AnimalTest {
         assertEquals(2, animal2.getNumLegs());
 
     }
-    // How to Test a s.out?  it's not a return value, it's not really logged anywhere
+//    @Test
+//    public void testAnimalHasSetNumLegs(){
+//        assertEquals(null, animal.setNumLegs(6));
+//        assertEquals(null, animal2.setNumLegs(0));
+//
+//    }
     @Test
     public void testStringOut(){
         animal.stateCharacteristics();

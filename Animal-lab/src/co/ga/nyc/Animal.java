@@ -12,6 +12,7 @@ public class Animal {
 
     public void setNumLegs(int numLegs) {
         this.numLegs = numLegs;
+        return;
     }
 
     public int getTopSpeed() {
@@ -26,7 +27,7 @@ public class Animal {
         return isEndangered;
     }
 
-    public void setEndangered(boolean endangered) {
+    public boolean setEndangered(boolean endangered) {
         isEndangered = endangered;
     }
 
